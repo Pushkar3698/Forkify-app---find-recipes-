@@ -1,0 +1,9 @@
+.search-result-Maincontainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  overflow-y: scroll;
+  width: 460px;
+  overflow-x: hidden;
+}

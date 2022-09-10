@@ -1,0 +1,32 @@
+.search-bar {
+  display: flex;
+
+  & input {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 400px;
+    font-size: 18px;
+    &:focus {
+      border: 0.2px solid blue;
+    }
+  }
+  & button {
+    height: 52px;
+    border: none;
+    background-color: rgb(236, 134, 9);
+    cursor: pointer;
+    border-radius: 10px;
+    width: 150px;
+    left: -4px;
+    padding: 5px;
+    transition: 0.2s all ease-in-out;
+    color: white;
+    &:hover {
+      background-color: rgb(250, 197, 127);
+      transform: scale(1.1);
+      color: black;
+    }
+  }
+}
